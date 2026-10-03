@@ -1,0 +1,134 @@
+Data Structure and Algorithm
+----------------------------
+1. Data Structure
+- It is a way of organizing and storing data.
+- so that we can access, modify, search, insert, delete data.
+
+2. Algorithm
+- It is a finite sequence of well-defined steps used to solve a
+particular problem.
+
+Example:
+    Suppose we have marks of 5 students
+    int[] marks = {75,82,91,68,88};
+
+    this 'array' is the data structure
+
+    i want to find highest marks
+    1. Assume first mark is max.
+    2. compare it with the second mark.
+    3. if second mark is greater so update the max
+    4. continue until the last mark
+    5. return max
+
+    These steps are the 'Algorithm'.
+
+In short:
+   Data Structure: How we can store/mange data
+   Algorithm: What are the steps to solve problem using the data.
+
+
+Q. Consider two programs that search for a student enrollment
+number among 10 lakh students.
+
+Approach-1: Check student data one by one.
+Approach-2: If data is sorted, repeatedly divide the search
+into half.
+
+3. Main Goal of DSA
+- Correctness
+- Less Time
+- Less Memory
+- Better Scalability
+- Clean and Maintainable
+
+Problem
+   |
+Understand
+   |
+Choose DS
+   |
+Choose Algo
+   |
+Implement
+   |
+Analyze
+   |
+Optimize
+
+4. Types of Data Structure
+                    Data Structure
+                          |
+                  ---------------------------
+                  |                           |
+                 Linear DS              Non-Linear DS
+                   |                          |
+           -----------------------          ----------
+           |      |     |        |          |        |
+         Array  Stack Queue Linkedlist    Tree      Graph
+
+
+5. Difference Between Algorithm and Program
+
+Algorithm: Language independent Logics
+Program: Implementation of that algorithm  in a programming
+         language.
+
+6. Algorithm Analysis
+
+Q. Suppose two algorithm solve the same problem
+    Algorithm A         [10 records]
+            |- 1 second
+    Algorithm B         [10 records]
+            |- 100 second
+
+Ans: Two Major Measures
+        |- Time Complexity: How the running time grows as
+                            input size increases.
+        |- Space Complexity: How much additional memory an algorithm
+                             requires
+
+Best case = 1
+worst case = n
+
+if(a==10)
+{
+    return a;
+}
+else
+{
+    while(a!=0)
+    {
+        int b = a%10;
+        a = a/10;
+    }
+    return a;
+}
+
+-----
+Next class:
+1. Common Complexities
+-------------------
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+O(n!)
+
+2. Searching
+3. Sorting-1
+4. Sorting-2
+
+
+
+
+
+
+
+
+
+
+
+
