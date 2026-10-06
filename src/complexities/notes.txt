@@ -1,0 +1,65 @@
+1. Common Complexities
+-------------------
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+O(n!)
+
+O(1)
+- Constant Time
+- It means the number if operation does not depend upon 'n'.
+- Example1.java
+
+O(log n)
+- Logarithm Time
+- Instead of check each element, we can repeatedly divide the operation into half.
+- Example2.java (Binary Search)
+*- If the problem size is repeatedly divided by 2 -> think O(log n)
+
+O(n)
+- Linear Time
+- It check every elements.
+- Example3.java (linear search)
+*- If you visit each element once -> think O(n)
+
+O(n log n)
+- One of most important complexity in DSA.
+- Divide and conquer
+- Example4.java (Merge Sort
+    - Divide the array into two half
+    - Recursively sort both halves.
+    - Merge the sorted values.
+
+Step-1 Division
+    n
+    n/2
+    n/4
+    n/8
+    ...
+    1
+
+number of level : log n
+
+Step-2 Work on each level
+- At every level n elements are processed
+- n time
+-------------
+log n * n
+-------------
+TC: O (n log n)
+
+
+O(n^2)
+- Nested loops
+- Example5.java (nested loop)
+*- Nested loops where each loop depend on n -> O(n^2)
+- HW : Bubble sort
+
+O(2^n)
+- Exponential Time
+- Recursive Problems
+- Example6.java (fibonacci)   0 1 1 2 3 5 8
+*- if each recursive call produce two independent recursive call
