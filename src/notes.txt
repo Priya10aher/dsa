@@ -6,6 +6,7 @@ Tree        [Done]
 Graph       [Done]
 Searching   [Done]
 Sorting     [Done]
+Hashing
 
 ***
 Algorithms [Explanation + Questions]
