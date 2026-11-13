@@ -56,7 +56,7 @@ Program-7: Unique Path
 - Input: m=3, n=3
 
 [0/1 Knapsack]
-[HW] Program-8: Maximum Knapsack profit
+Program-8: Maximum Knapsack profit
 - A bag with a maximum weight capacity W.
 - There are N items, Each item has
     |- Weight
@@ -80,13 +80,22 @@ Program-7: Unique Path
     {7,1} = 8
 
 
+Program-9: Coin Change  [Next class]
+- You are given an array of coin denominations and a target amount.
+- Each coin denomination unlimited times.
+- Find the minimum number of coin needed to make a target amount
+Input:
+    coins = {1,2,5}
+    amount = 11
+Output: 3
 
+Explain:
+    11  -> 1+1+1+1+1+1+1+1+1+1+1
+    11  -> 2+2+2+2+2+1
+    11  -> 5+5+1            [Best]
+    11  -> 5+2+2+2
 
-
-
-
-
-
+Program-10: Longest Common Subsequence
 
 
 
