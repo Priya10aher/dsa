@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd2efdf5-3575-4dfc-8aae-3d8fef53e28a" name="Changes" comment="12-11-2026">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program9.java" afterDir="false" />
+    <list default="true" id="fd2efdf5-3575-4dfc-8aae-3d8fef53e28a" name="Changes" comment="13-11-2026">
+      <change afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicprograming_problems/Program9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/Program9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dynamicprograming_problems/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprograming_problems/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprograming_problems.Program6" />
+    <configuration name="Program11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprograming_problems.Program11" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprograming_problems.Program7" />
+    <configuration name="Program12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicprograming_problems.Program12" />
       <module name="dsa" />
       <extension name="coverage">
         <pattern>
@@ -147,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program9" />
+        <item itemvalue="Application.Program12" />
+        <item itemvalue="Application.Program11" />
         <item itemvalue="Application.Program8" />
         <item itemvalue="Application.Program10" />
-        <item itemvalue="Application.Program7" />
-        <item itemvalue="Application.Program6" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794503669945</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="13-11-2026">
+      <option name="closed" value="true" />
+      <created>1794589711621</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1794589711621</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,6 +323,7 @@
     <MESSAGE value="29-10-2026" />
     <MESSAGE value="5-11-2026" />
     <MESSAGE value="12-11-2026" />
-    <option name="LAST_COMMIT_MESSAGE" value="12-11-2026" />
+    <MESSAGE value="13-11-2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-11-2026" />
   </component>
 </project>

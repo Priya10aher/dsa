@@ -80,7 +80,7 @@ Program-8: Maximum Knapsack profit
     {7,1} = 8
 
 
-Program-9: Coin Change  [Next class]
+Program-9: Coin Change
 - You are given an array of coin denominations and a target amount.
 - Each coin denomination unlimited times.
 - Find the minimum number of coin needed to make a target amount
@@ -97,6 +97,15 @@ Explain:
 
 Program-10: Longest Common Subsequence
 
+Program-11: Longest Increasing Subsequence
+Input:
+    arr = {10,9,2,5,3,7,101,18};
+Output:
+    4
+    bcoz valid subsequence is {2    3   7   18}
+
+
+Program-12: Shortest Path Algo [Floyd Warshall Algorithm]
 
 
 
