@@ -1,0 +1,62 @@
+Greedy Algorithm
+----------------
+- Greedy Algorithm means choosing the best available option at every step
+  to get the desired result.
+Example:
+coins = {1,5,10,20,50}
+amount = 87
+Choose the largest possible coin each time.
+    50+20+10+5+1+1
+Total coins = 6
+
+Problem1: Assign Cookie Sorting Based Greedy
+- Each child can receive at most one cookie and each cookie can be assigned
+to only one child.
+- Find the maximum number of children who can be satisfied
+Input: g[] = {1,2,3}
+       s[] = {1,1}
+
+Problem2: Minimum Coins
+Find the minimum number of coins to make an amount.
+Input: coins = {50,20,10,5,2,1}
+       amount = 87
+Output: 6
+        50+20+10+5+2 = 87 {5}     Best
+        50+20+10+5+1+1 = 87 {6}
+
+Problem3: Activity Selection
+Done by Screenshots
+
+Problem4: Jump Game
+- an Array where each element represent the maximum no of steps
+- Jump forward from that position
+- start at index 0
+- determine each the last index
+
+if reach: true
+if not reached : false
+
+Input:
+    arr = {2,3,1,1,4}
+Output:
+
+    2   3   1   1   4
+    -----------------
+    0   1   2   3   4
+    -------->--->--->
+    0       2   3   4
+    ---->----------->
+    0      1        4
+
+Program:5 Fractional Knapsack
+Screenshots
+
+
+
+
+
+
+
+
+
+
